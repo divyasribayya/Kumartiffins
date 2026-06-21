@@ -12,12 +12,12 @@ const $$ = sel => document.querySelectorAll(sel);
 // ─── MENU DATA ───
 const menuData = {
   tiffin: [
-    { type: 'item', name: 'Sambar Idly', price: 15, thumb: 'images/real_idli.png', emoji: '🍚', desc: 'Soft idly with hot sambar & chutney' },
-    { type: 'item', name: 'Idly (2 pcs)', price: 10, thumb: 'images/real_idli.png', emoji: '🍚', desc: 'Two soft steamed rice cakes' },
-    { type: 'item', name: 'Bonda (2 pcs)', price: 10, thumb: 'images/real_bonda.png', emoji: '🧆', desc: 'Golden crispy potato bondas' },
-    { type: 'item', name: 'Vada (1 pc)', price: 10, thumb: 'images/real_vada.png', emoji: '🧆', desc: 'Crispy medu vada with sambar' },
-    { type: 'item', name: 'Puri (1 pc)', price: 15, thumb: 'images/real_puri.png', emoji: '🫓', desc: 'Fluffy deep-fried puri with curry' },
-    { type: 'item', name: 'Masala Dosa', price: 25, thumb: 'images/real_dosa.png', emoji: '🫓', desc: 'Crispy dosa with spiced potato filling', badge: '<span class="mi-badge">★ Bestseller</span>', rowClass: 'bestseller-row' },
+    { type: 'item', name: 'Sambar Idly', price: 15, thumb: '/real_idli.png', emoji: '🍚', desc: 'Soft idly with hot sambar & chutney' },
+    { type: 'item', name: 'Idly (2 pcs)', price: 10, thumb: '/real_idli.png', emoji: '🍚', desc: 'Two soft steamed rice cakes' },
+    { type: 'item', name: 'Bonda (2 pcs)', price: 10, thumb: '/real_bonda.png', emoji: '🧆', desc: 'Golden crispy potato bondas' },
+    { type: 'item', name: 'Vada (1 pc)', price: 10, thumb: '/real_vada.png', emoji: '🧆', desc: 'Crispy medu vada with sambar' },
+    { type: 'item', name: 'Puri (1 pc)', price: 15, thumb: '/real_puri.png', emoji: '🫓', desc: 'Fluffy deep-fried puri with curry' },
+    { type: 'item', name: 'Masala Dosa', price: 25, thumb: '/real_dosa.png', emoji: '🫓', desc: 'Crispy dosa with spiced potato filling', badge: '<span class="mi-badge">★ Bestseller</span>', rowClass: 'bestseller-row' },
     { type: 'item', name: 'Onion Dosa', price: 20, thumb: 'images/real_dosa.png', emoji: '🫓', desc: 'Crispy dosa with caramelized onions' },
     { type: 'item', name: 'Plain Dosa', price: 15, thumb: 'images/real_dosa.png', emoji: '🫓', desc: 'Classic crispy dosa with sambar & chutney' },
     { type: 'item', name: 'Egg Dosa', price: 30, thumb: 'images/real_egg_dosa.png', emoji: '🥚', desc: 'Crispy dosa layered with fluffy egg' },
